@@ -36,7 +36,7 @@ Client.on("message", async (message) => {
 	let args = message.content.split(" ").slice(1);
 	
 	if (command === "ping") {
-		message.channel.send(`Pong! Time took: ${Date.now() - message.createdTimestamp} ms`);
+		message.channel.send(`Pong! Le temps pris: ${Date.now() - message.createdTimestamp} ms`);
 	} else
 
 	if (command === "say") {
